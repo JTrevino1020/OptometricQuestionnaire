@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.optometricquestionnaire">
+    package="com.example.optometry">
 
     <application
         android:allowBackup="true"
@@ -15,6 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".DisplayQuestionActivity" />
+        <activity android:name=".DisplayResultsActivity" />
+        <activity android:name=".DisplayThanksActivity" />
+        <activity android:name=".DisplayReviewActivity"></activity>
     </application>
 
 </manifest>
