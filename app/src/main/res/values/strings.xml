@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OptometricQuestionnaire</string>
+    <string name="app_name">Learning and Vision</string>
 
     <string name="button_start">Begin Questionnaire</string>
     <string name="button_submit">Submit Questionnaire</string>
@@ -28,19 +28,19 @@
     <string name="choice_4">Fairly Often</string>
     <string name="choice_5">Always</string>
 
-    <string name="test_1_question_1">Do you every feel dizzy or off balance?</string>
-    <string name="test_1_question_2">Do you every feel nausea if you change posture quickly?</string>
-    <string name="test_1_question_3">Do you get motion sickness?</string>
-    <string name="test_1_question_4">Do you tend to "drift off to one side" when walking?</string>
-    <string name="test_1_question_5">Do you get panic attacks?</string>
-    <string name="test_1_question_6">Do you get any symptoms of depression?</string>
-    <string name="test_1_question_7">Do you take pain medications?</string>
-    <string name="test_1_question_8">Do you feel unsafe driving?</string>
-    <string name="test_1_question_9">Do you feel as though you get visually fatigued quickly?</string>
-    <string name="test_1_question_10">Do you have trouble with short term memory?</string>
-    <string name="test_1_question_11">Do you bump into things unexpectedly?</string>
-    <string name="test_1_question_12">Do you ever get double vision?</string>
-    <string name="test_1_question_13">Does your vision tend to fluctuate in terms of clarity?</string>
-    <string name="test_1_question_14">Are you light sensitive?</string>
-    <string name="test_1_question_15">Do you have problems watching 3D movies?</string>
+    <string name="test_1_question_1">Do your eyes feel tired when reading or doing close work?</string>
+    <string name="test_1_question_2">Do your eyes feel uncomfortable when reading?</string>
+    <string name="test_1_question_3">Do you have headaches when reading?</string>
+    <string name="test_1_question_4">Do you feel sleepy when reading?</string>
+    <string name="test_1_question_5">Do you lose concentration when reading?</string>
+    <string name="test_1_question_6">Do you have trouble remembering what you have read?</string>
+    <string name="test_1_question_7">Do you have double vision when reading?</string>
+    <string name="test_1_question_8">Do you see the words move or jump when you read?</string>
+    <string name="test_1_question_9">Do you feel like you read slowly?</string>
+    <string name="test_1_question_10">Do your eyes ever hurt when reading?</string>
+    <string name="test_1_question_11">Do your eyes ever feel sore (i.e. achy) when reading?</string>
+    <string name="test_1_question_12">Do you ever feel a "pulling feeling" around your eyes?</string>
+    <string name="test_1_question_13">Do you notice words coming in and out of focus?</string>
+    <string name="test_1_question_14">Do you lose your place / line when reading?</string>
+    <string name="test_1_question_15">Do you have to re-read the same line when reading?</string>
 </resources>
