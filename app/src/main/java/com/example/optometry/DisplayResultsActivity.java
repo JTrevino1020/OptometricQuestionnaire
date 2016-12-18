@@ -24,9 +24,10 @@ public class DisplayResultsActivity extends AppCompatActivity {
 
         TextView numericResultTextView = (TextView) findViewById(R.id.message_numeric_result);
         numericResultTextView.setText(String.format(Locale.getDefault(), "%d", numericResult));
-
+        numericResultTextView.setTextAppearance(this, android.R.style.TextAppearance_Material_Headline);
 
         TextView stringResultTextView = (TextView) findViewById(R.id.message_string_result);
+        stringResultTextView.setTextAppearance(this, android.R.style.TextAppearance_Material_Headline);
         if (numericResult <= 15) {
             stringResultTextView.setText(R.string.message_test_pass);
         } else {

@@ -39,7 +39,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="enableNextButton"
-            android:text="@string/choice_1" />
+            android:text="@string/choice_1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <RadioButton
             android:id="@+id/radioButton1"
@@ -47,7 +48,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="enableNextButton"
-            android:text="@string/choice_2" />
+            android:text="@string/choice_2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <RadioButton
             android:id="@+id/radioButton2"
@@ -55,7 +57,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="enableNextButton"
-            android:text="@string/choice_3" />
+            android:text="@string/choice_3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <RadioButton
             android:id="@+id/radioButton3"
@@ -63,7 +66,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="enableNextButton"
-            android:text="@string/choice_4" />
+            android:text="@string/choice_4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <RadioButton
             android:id="@+id/radioButton4"
@@ -71,7 +75,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="enableNextButton"
-            android:text="@string/choice_5" />
+            android:text="@string/choice_5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
     </RadioGroup>
 
     <Button
@@ -83,7 +88,8 @@
         android:layout_marginTop="10dp"
         android:enabled="false"
         android:onClick="nextPage"
-        android:text="@string/button_next" />
+        android:text="@string/button_next"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <Button
         android:id="@+id/button_restart"

@@ -33,6 +33,7 @@ public class DisplayReviewActivity extends AppCompatActivity {
             final String question = questionNumberString + ". " + getText(DisplayQuestionActivity.map.get(questionNumber));
             TextView textView = new TextView(this);
             textView.setText(question);
+            textView.setTextAppearance(this, android.R.style.TextAppearance_Medium);
             textView.setGravity(Gravity.CENTER_HORIZONTAL);
 
             sectionReviewResponses.addView(textView);

@@ -16,7 +16,8 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/message_thanks_2"
         android:layout_centerHorizontal="true"
-        android:text="@string/message_thanks_1" />
+        android:text="@string/message_thanks_1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
     <TextView
         android:id="@+id/message_thanks_2"
@@ -24,7 +25,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/message_thanks_2" />
+        android:text="@string/message_thanks_2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
     <Button
         android:id="@+id/button_continue"

@@ -13,6 +13,9 @@ import android.widget.TextView;
 import java.util.HashMap;
 import java.util.Map;
 
+import static android.R.style.TextAppearance_Large;
+import static android.R.style.TextAppearance_Material_Headline;
+
 public class DisplayQuestionActivity extends AppCompatActivity {
 
     public final static String EXTRA_NEXT_QUESTION = "com.example.optometry.NEXT_QUESTION";
@@ -58,9 +61,11 @@ public class DisplayQuestionActivity extends AppCompatActivity {
 
         TextView messageQuestion = (TextView) findViewById(R.id.message_question);
         messageQuestion.setText(getText(R.string.message_question) + " #" + questionString);
+        messageQuestion.setTextAppearance(this, TextAppearance_Material_Headline);
 
         TextView questionText = (TextView) findViewById(R.id.message_question_text);
         questionText.setText(getText(map.get(questionNumber)));
+        questionText.setTextAppearance(this, TextAppearance_Large);
     }
 
     public void enableNextButton(View view) {

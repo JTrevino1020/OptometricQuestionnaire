@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Learning and Vision</string>
 
-    <string name="button_start">Begin Questionnaire</string>
-    <string name="button_submit">Submit Questionnaire</string>
+    <string name="button_start">Begin</string>
+    <string name="button_submit">Submit</string>
     <string name="button_next">Next Question</string>
-    <string name="button_restart">Start Questionnaire Over</string>
+    <string name="button_restart">Restart</string>
     <string name="button_continue">Continue</string>
 
     <string name="message_welcome">Welcome!</string>
